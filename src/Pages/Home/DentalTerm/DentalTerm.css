@@ -1,0 +1,47 @@
+.text{
+    color: rgb(66, 69, 69);
+}
+
+.content{
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.experience-body img{
+    width: 40%;
+    height: 400px;
+    margin-right: 80px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    box-shadow: 30px 30px rgb(200, 200, 197);
+}
+.experience-body {
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    margin-bottom: 20px;
+    height: 550px;
+    background-color: rgb(210, 230, 230);
+}
+.hover-btn:hover{
+    background-color: rgb(64, 177, 177);
+    border: none;
+}
+ /* for mobile devices */
+ @media only screen and (max-width: 600px) {
+    .experience-body {
+        flex-direction: column;
+        height: 100%;
+    }
+    .content{
+        /* border: 1px solid red; */
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .experience-body img{
+        width: 80%;
+        height: 200px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+        box-shadow: 15px 15px rgb(190, 190, 184);
+    }
+  }
