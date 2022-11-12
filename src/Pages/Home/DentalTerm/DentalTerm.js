@@ -2,7 +2,7 @@ import React from 'react';
 import './DentalTerm.css'
 const DentalTerm = () => {
     return (
-        <div class="flex justify-center items-center experience-body  to-primary">
+        <div class="flex justify-center items-center experience-body">
         <img src="https://www.benefitscanada.com/wp-content/uploads/sites/7/2022/03/131452220_l.jpg" alt="" />
            <div class="content">
           <h3 className='text font-bold text-4xl mb-4'>My Patient <br />
