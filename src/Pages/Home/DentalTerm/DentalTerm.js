@@ -3,7 +3,7 @@ import './DentalTerm.css'
 const DentalTerm = () => {
     return (
         <div class="flex justify-center items-center experience-body">
-        <img src="https://www.benefitscanada.com/wp-content/uploads/sites/7/2022/03/131452220_l.jpg" alt="" />
+        <img src="https://media.istockphoto.com/photos/healthcare-and-medicine-concept-picture-id1147580332?b=1&k=20&m=1147580332&s=170667a&w=0&h=Y3IRSFo1ATaS_-XUuQYd53PIB8EFuK3SRn94ymfZwJA=" alt="" />
            <div class="content">
           <h3 className='text font-bold text-4xl mb-4'>My Patient <br />
           <span className='text-5xl'>Experiences</span></h3>
