@@ -19,10 +19,10 @@ const Navbar = () => {
        {user?.uid?
        <>
         <li><Link to="/dashboard">DashBoard</Link></li>
-        <li><button className='btn btn-accent text-white' onClick={handleLogOut}>Logout</button></li>
+        <li><button className='btn btn-accent text-white rounded-full' onClick={handleLogOut}>Logout</button></li>
         </>
         :
-        <li><Link  className='btn btn-accent text-white' to="/login">Login</Link></li>
+        <li><Link  className='btn btn-accent text-white rounded-full' to="/login">Login</Link></li>
        }
     </React.Fragment>
 

@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import DashboardLayout from "../../Layout/DashboardLayout";
 import Main from "../../Layout/Main";
+import About from "../../Pages/About/About";
 import Appointment from "../../Pages/Appointment/Appointment/Appointment";
 import AddDoctor from "../../Pages/Dashboard/AddDoctor/AddDoctor";
 import AllUsers from "../../Pages/Dashboard/AllUsers/AllUsers";
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <h1>about</h1>
+                element: <About></About>
             },
             {
                 path: '/appointment',
@@ -65,7 +66,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/dashboard/payment/:id',
-                loader:({params}) => fetch(`http://localhost:5000/bookings/${params.id}`),
+                loader:({params}) => fetch(`https://doctors-portal-server-one-azure.vercel.app/bookings/${params.id}`),
                 element: <Payment></Payment>
             }
         ]
